@@ -2,3 +2,36 @@
   background-color:#000000;
   
 }
+
+/* Mobile styles */
+@media screen and (max-width: 767px) {
+  .small-image {
+    width: 70px;
+  }
+}
+
+/* PC styles */
+@media screen and (min-width: 768px) {
+  .small-image {
+    width: 90px;
+  }
+}
+
+
+
+.icons {
+  position: fixed;
+  display: flex;
+  right: 5px;
+  bottom: 20px;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  margin-right: 30px; /* Add some spacing between the icons */
+  path {    
+    fill: #1da1f2;
+    stroke: none;
+  }
+}
